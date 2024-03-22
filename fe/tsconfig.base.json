@@ -1,0 +1,53 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2022",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@nx-mygarden/data-access-category": [
+        "libs/vegetables/data-access/data-access-category/src/index.ts"
+      ],
+      "@nx-mygarden/data-access-group": [
+        "libs/vegetables/data-access/data-access-group/src/index.ts"
+      ],
+      "@nx-mygarden/feature-add-category": [
+        "libs/vegetables/features/feature-add-category/src/index.ts"
+      ],
+      "@nx-mygarden/feature-add-group": [
+        "libs/vegetables/features/feature-add-group/src/index.ts"
+      ],
+      "@nx-mygarden/feature-category-list": [
+        "libs/vegetables/features/feature-category-list/src/index.ts"
+      ],
+      "@nx-mygarden/feature-group-list": [
+        "libs/vegetables/features/feature-group-list/src/index.ts"
+      ],
+      "@nx-mygarden/page-add-vegetable": [
+        "libs/vegetables/pages/page-add-vegetable/src/index.ts"
+      ],
+      "@nx-mygarden/page-vegetable-catalog": [
+        "libs/vegetables/pages/page-vegetable-catalog/src/index.ts"
+      ],
+      "@nx-mygarden/page-vegetable-categories": [
+        "libs/vegetables/pages/page-vegetable-categories/src/index.ts"
+      ],
+      "@nx-mygarden/page-vegetable-groups": [
+        "libs/vegetables/pages/page-vegetable-groups/src/index.ts"
+      ],
+      "@nx-mygarden/shared": ["libs/vegetables/shared/src/index.ts"],
+      "@nx-mygarden/vegetables-shell": ["libs/vegetables/shell/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

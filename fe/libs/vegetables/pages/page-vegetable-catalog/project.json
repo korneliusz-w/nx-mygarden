@@ -1,0 +1,20 @@
+{
+  "name": "page-vegetable-catalog",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/vegetables/pages/page-vegetable-catalog/src",
+  "prefix": "lib",
+  "tags": ["domain:vegetables", "type:page"],
+  "projectType": "library",
+  "targets": {
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "libs/vegetables/pages/page-vegetable-catalog/jest.config.ts"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}
