@@ -1,0 +1,14 @@
+<form>
+  <legend>Dodaj / edytuj grupę</legend>
+
+  <div class="field">
+    <input
+      type="text"
+      [(ngModel)]="currentGroup.name"
+      required
+      name="groupName" />
+  </div>
+  <div class="buttons-wrapper">
+    <button (click)="handleSaveGroup()">Dodaj / Zapisz</button>
+  </div>
+</form>

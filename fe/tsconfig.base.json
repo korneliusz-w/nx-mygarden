@@ -46,7 +46,26 @@
         "libs/vegetables/pages/page-vegetable-groups/src/index.ts"
       ],
       "@nx-mygarden/shared": ["libs/vegetables/shared/src/index.ts"],
-      "@nx-mygarden/vegetables-shell": ["libs/vegetables/shell/src/index.ts"]
+      "@nx-mygarden/state-groups": [
+        "libs/vegetables/data-access/state-groups/src/index.ts"
+      ],
+      "@nx-mygarden/state-management": [
+        "libs/vegetables/state-management/src/index.ts"
+      ],
+      "@nx-mygarden/ui-add-category-form": [
+        "libs/vegetables/ui/ui-add-category-form/src/index.ts"
+      ],
+      "@nx-mygarden/ui-add-group-form": [
+        "libs/vegetables/ui/ui-add-group-form/src/index.ts"
+      ],
+      "@nx-mygarden/ui-category-list": [
+        "libs/vegetables/ui/ui-category-list/src/index.ts"
+      ],
+      "@nx-mygarden/ui-group-list": [
+        "libs/vegetables/ui/ui-group-list/src/index.ts"
+      ],
+      "@nx-mygarden/vegetables-shell": ["libs/vegetables/shell/src/index.ts"],
+      "@nx-mygarden/vegetables-tools": ["libs/vegetables/tools"]
     }
   },
   "exclude": ["node_modules", "tmp"]

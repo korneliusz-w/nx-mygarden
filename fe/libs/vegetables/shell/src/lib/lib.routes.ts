@@ -3,8 +3,13 @@ import { PAGE_ADD_VEGETABLE_PATH } from '@nx-mygarden/page-add-vegetable';
 import { PAGE_VEGETABLE_CATALOG_PATH } from '@nx-mygarden/page-vegetable-catalog';
 import { PAGE_VEGETABLE_CATEGORIES_PATH } from '@nx-mygarden/page-vegetable-categories';
 import { PAGE_VEGETABLE_GROUPS_PATH } from '@nx-mygarden/page-vegetable-groups';
+import { VegetablesShellComponent } from './vegetables-shell.component';
 
 export const vegetablesShellRoutes: Route[] = [
+  {
+    path: '',
+    component: VegetablesShellComponent
+  },
   {
     path: PAGE_ADD_VEGETABLE_PATH,
     loadChildren: ()=>import('@nx-mygarden/page-add-vegetable').then(m => m.PageAddVegetableModule)

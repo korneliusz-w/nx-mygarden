@@ -3,7 +3,7 @@
   "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/vegetables/features/feature-add-group/src",
   "prefix": "lib",
-  "tags": [],
+  "tags": ["domain:vegetables", "type:feature"],
   "projectType": "library",
   "targets": {
     "test": {

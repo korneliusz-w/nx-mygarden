@@ -1,0 +1,11 @@
+<h2>Twoje grupy warzyw</h2>
+
+<ul class="list">
+  <li *ngFor="let item of list" class="list__item">
+    {{ item.name }}
+    <div class="list__item__actions">
+      <button (click)="handleEditGroup(item)">Edytuj</button>
+      <button (click)="handleDeleteGroup(item.id)">Usuń</button>
+    </div>
+  </li>
+</ul>

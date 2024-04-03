@@ -3,7 +3,7 @@
   "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/vegetables/data-access/data-access-category/src",
   "prefix": "lib",
-  "tags": ["domain:vegetables", "type:dat-access"],
+  "tags": ["domain:vegetables", "type:data-access"],
   "projectType": "library",
   "targets": {
     "test": {

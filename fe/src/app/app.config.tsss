@@ -1,0 +1,14 @@
+import { ApplicationConfig } from '@angular/core';
+import { provideRouter } from '@angular/router';
+import { appRoutes } from './app.routes';
+import { provideStore, provideState } from '@ngrx/store';
+import { provideEffects } from '@ngrx/effects';
+
+export const appConfig: ApplicationConfig = {
+  providers: [
+    // provideState(fromRoot.ROOT_FEATURE_KEY, fromRoot.rootReducer),
+    provideEffects([]),
+    provideStore({}),
+    provideRouter(appRoutes),
+  ],
+};
