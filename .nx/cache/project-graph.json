@@ -1,0 +1,684 @@
+{
+  "nodes": {
+    "data-access-category": {
+      "name": "data-access-category",
+      "type": "lib",
+      "data": {
+        "name": "data-access-category",
+        "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/vegetables/data-access/data-access-category/src",
+        "prefix": "lib",
+        "tags": [
+          "domain:vegetables",
+          "type:data-access"
+        ],
+        "projectType": "library",
+        "targets": {
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "libs/vegetables/data-access/data-access-category/jest.config.ts"
+            }
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint"
+          }
+        },
+        "root": "fe/libs/vegetables/data-access/data-access-category",
+        "implicitDependencies": []
+      }
+    },
+    "page-vegetable-categories": {
+      "name": "page-vegetable-categories",
+      "type": "lib",
+      "data": {
+        "name": "page-vegetable-categories",
+        "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/vegetables/pages/page-vegetable-categories/src",
+        "prefix": "lib",
+        "tags": [
+          "domain:vegetables",
+          "type:page"
+        ],
+        "projectType": "library",
+        "targets": {
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "libs/vegetables/pages/page-vegetable-categories/jest.config.ts"
+            }
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint"
+          }
+        },
+        "root": "fe/libs/vegetables/pages/page-vegetable-categories",
+        "implicitDependencies": []
+      }
+    },
+    "feature-category-list": {
+      "name": "feature-category-list",
+      "type": "lib",
+      "data": {
+        "name": "feature-category-list",
+        "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/vegetables/features/feature-category-list/src",
+        "prefix": "lib",
+        "tags": [
+          "domain:vegetables",
+          "type:feature"
+        ],
+        "projectType": "library",
+        "targets": {
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "libs/vegetables/features/feature-category-list/jest.config.ts"
+            }
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint"
+          }
+        },
+        "root": "fe/libs/vegetables/features/feature-category-list",
+        "implicitDependencies": []
+      }
+    },
+    "data-access-group": {
+      "name": "data-access-group",
+      "type": "lib",
+      "data": {
+        "name": "data-access-group",
+        "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/vegetables/data-access/data-access-group/src",
+        "prefix": "lib",
+        "tags": [
+          "domain:vegetables",
+          "type:data-access"
+        ],
+        "projectType": "library",
+        "targets": {
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "libs/vegetables/data-access/data-access-group/jest.config.ts"
+            }
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint"
+          }
+        },
+        "root": "fe/libs/vegetables/data-access/data-access-group",
+        "implicitDependencies": []
+      }
+    },
+    "feature-add-category": {
+      "name": "feature-add-category",
+      "type": "lib",
+      "data": {
+        "name": "feature-add-category",
+        "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/vegetables/features/feature-add-category/src",
+        "prefix": "lib",
+        "tags": [
+          "domain:vegetables",
+          "type:feature"
+        ],
+        "projectType": "library",
+        "targets": {
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "libs/vegetables/features/feature-add-category/jest.config.ts"
+            }
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint"
+          }
+        },
+        "root": "fe/libs/vegetables/features/feature-add-category",
+        "implicitDependencies": []
+      }
+    },
+    "page-vegetable-catalog": {
+      "name": "page-vegetable-catalog",
+      "type": "lib",
+      "data": {
+        "name": "page-vegetable-catalog",
+        "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/vegetables/pages/page-vegetable-catalog/src",
+        "prefix": "lib",
+        "tags": [
+          "domain:vegetables",
+          "type:page"
+        ],
+        "projectType": "library",
+        "targets": {
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "libs/vegetables/pages/page-vegetable-catalog/jest.config.ts"
+            }
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint"
+          }
+        },
+        "root": "fe/libs/vegetables/pages/page-vegetable-catalog",
+        "implicitDependencies": []
+      }
+    },
+    "feature-group-list": {
+      "name": "feature-group-list",
+      "type": "lib",
+      "data": {
+        "name": "feature-group-list",
+        "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/vegetables/features/feature-group-list/src",
+        "prefix": "lib",
+        "tags": [
+          "domain:vegetables",
+          "type:feature"
+        ],
+        "projectType": "library",
+        "targets": {
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "libs/vegetables/features/feature-group-list/jest.config.ts"
+            }
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint"
+          }
+        },
+        "root": "fe/libs/vegetables/features/feature-group-list",
+        "implicitDependencies": []
+      }
+    },
+    "page-vegetable-groups": {
+      "name": "page-vegetable-groups",
+      "type": "lib",
+      "data": {
+        "name": "page-vegetable-groups",
+        "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/vegetables/pages/page-vegetable-groups/src",
+        "prefix": "lib",
+        "tags": [
+          "domain:vegetables",
+          "type:page"
+        ],
+        "projectType": "library",
+        "targets": {
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "libs/vegetables/pages/page-vegetable-groups/jest.config.ts"
+            }
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint"
+          }
+        },
+        "root": "fe/libs/vegetables/pages/page-vegetable-groups",
+        "implicitDependencies": []
+      }
+    },
+    "feature-add-group": {
+      "name": "feature-add-group",
+      "type": "lib",
+      "data": {
+        "name": "feature-add-group",
+        "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/vegetables/features/feature-add-group/src",
+        "prefix": "lib",
+        "tags": [
+          "domain:vegetables",
+          "type:feature"
+        ],
+        "projectType": "library",
+        "targets": {
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "libs/vegetables/features/feature-add-group/jest.config.ts"
+            }
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint"
+          }
+        },
+        "root": "fe/libs/vegetables/features/feature-add-group",
+        "implicitDependencies": []
+      }
+    },
+    "state-groups": {
+      "name": "state-groups",
+      "type": "lib",
+      "data": {
+        "name": "state-groups",
+        "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/vegetables/data-access/state-groups/src",
+        "prefix": "lib",
+        "tags": [
+          "domain:vegetables",
+          "type:state"
+        ],
+        "projectType": "library",
+        "targets": {
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "libs/vegetables/data-access/state-groups/jest.config.ts"
+            }
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint"
+          }
+        },
+        "root": "fe/libs/vegetables/data-access/state-groups",
+        "implicitDependencies": []
+      }
+    },
+    "page-add-vegetable": {
+      "name": "page-add-vegetable",
+      "type": "lib",
+      "data": {
+        "name": "page-add-vegetable",
+        "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/vegetables/pages/page-add-vegetable/src",
+        "prefix": "lib",
+        "tags": [
+          "domain:vegetables",
+          "type:page"
+        ],
+        "projectType": "library",
+        "targets": {
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "libs/vegetables/pages/page-add-vegetable/jest.config.ts"
+            }
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint"
+          }
+        },
+        "root": "fe/libs/vegetables/pages/page-add-vegetable",
+        "implicitDependencies": []
+      }
+    },
+    "ui-add-category-form": {
+      "name": "ui-add-category-form",
+      "type": "lib",
+      "data": {
+        "name": "ui-add-category-form",
+        "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/vegetables/ui/ui-add-category-form/src",
+        "prefix": "lib",
+        "tags": [
+          "domain:vegetables",
+          "type:ui"
+        ],
+        "projectType": "library",
+        "targets": {
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "libs/vegetables/ui/ui-add-category-form/jest.config.ts"
+            }
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint"
+          }
+        },
+        "root": "fe/libs/vegetables/ui/ui-add-category-form",
+        "implicitDependencies": []
+      }
+    },
+    "ui-add-group-form": {
+      "name": "ui-add-group-form",
+      "type": "lib",
+      "data": {
+        "name": "ui-add-group-form",
+        "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/vegetables/ui/ui-add-group-form/src",
+        "prefix": "lib",
+        "tags": [
+          "domain:vegetables",
+          "type:ui"
+        ],
+        "projectType": "library",
+        "targets": {
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "libs/vegetables/ui/ui-add-group-form/jest.config.ts"
+            }
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint"
+          }
+        },
+        "root": "fe/libs/vegetables/ui/ui-add-group-form",
+        "implicitDependencies": []
+      }
+    },
+    "ui-category-list": {
+      "name": "ui-category-list",
+      "type": "lib",
+      "data": {
+        "name": "ui-category-list",
+        "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/vegetables/ui/ui-category-list/src",
+        "prefix": "lib",
+        "tags": [
+          "domain:vegetables",
+          "type:ui"
+        ],
+        "projectType": "library",
+        "targets": {
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "libs/vegetables/ui/ui-category-list/jest.config.ts"
+            }
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint"
+          }
+        },
+        "root": "fe/libs/vegetables/ui/ui-category-list",
+        "implicitDependencies": []
+      }
+    },
+    "ui-group-list": {
+      "name": "ui-group-list",
+      "type": "lib",
+      "data": {
+        "name": "ui-group-list",
+        "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/vegetables/ui/ui-group-list/src",
+        "prefix": "lib",
+        "tags": [
+          "domain:vegetables",
+          "type:ui"
+        ],
+        "projectType": "library",
+        "targets": {
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "libs/vegetables/ui/ui-group-list/jest.config.ts"
+            }
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint"
+          }
+        },
+        "root": "fe/libs/vegetables/ui/ui-group-list",
+        "implicitDependencies": []
+      }
+    },
+    "shared": {
+      "name": "shared",
+      "type": "lib",
+      "data": {
+        "name": "shared",
+        "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/vegetables/shared/src",
+        "prefix": "lib",
+        "tags": [
+          "domain:vegetables",
+          "type:shared"
+        ],
+        "projectType": "library",
+        "targets": {
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "libs/vegetables/shared/jest.config.ts"
+            }
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint"
+          }
+        },
+        "root": "fe/libs/vegetables/shared",
+        "implicitDependencies": []
+      }
+    },
+    "vegetables-shell": {
+      "name": "vegetables-shell",
+      "type": "lib",
+      "data": {
+        "name": "vegetables-shell",
+        "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/vegetables/shell/src",
+        "prefix": "lib",
+        "tags": [
+          "domain:vegetables",
+          "type:shell"
+        ],
+        "projectType": "library",
+        "targets": {
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "libs/vegetables/shell/jest.config.ts"
+            }
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint"
+          }
+        },
+        "root": "fe/libs/vegetables/shell",
+        "implicitDependencies": []
+      }
+    },
+    "e2e": {
+      "name": "e2e",
+      "type": "e2e",
+      "data": {
+        "name": "e2e",
+        "$schema": "../node_modules/nx/schemas/project-schema.json",
+        "projectType": "application",
+        "sourceRoot": "e2e/src",
+        "tags": [],
+        "implicitDependencies": [
+          "nx-mygarden"
+        ],
+        "// targets": "to see all targets run: nx show project e2e --web",
+        "targets": {},
+        "root": "fe/e2e"
+      }
+    },
+    "nx-mygarden": {
+      "name": "nx-mygarden",
+      "type": "app",
+      "data": {
+        "name": "nx-mygarden",
+        "$schema": "node_modules/nx/schemas/project-schema.json",
+        "projectType": "application",
+        "prefix": "app",
+        "sourceRoot": "./src",
+        "tags": [],
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:browser",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "options": {
+              "outputPath": "dist/nx-mygarden",
+              "index": "./src/index.html",
+              "main": "./src/main.ts",
+              "polyfills": [
+                "zone.js"
+              ],
+              "tsConfig": "./tsconfig.app.json",
+              "inlineStyleLanguage": "scss",
+              "assets": [
+                "./src/favicon.ico",
+                "./src/assets"
+              ],
+              "styles": [
+                "./src/styles.scss"
+              ],
+              "scripts": []
+            },
+            "configurations": {
+              "production": {
+                "budgets": [
+                  {
+                    "type": "initial",
+                    "maximumWarning": "500kb",
+                    "maximumError": "1mb"
+                  },
+                  {
+                    "type": "anyComponentStyle",
+                    "maximumWarning": "2kb",
+                    "maximumError": "4kb"
+                  }
+                ],
+                "outputHashing": "all"
+              },
+              "development": {
+                "buildOptimizer": false,
+                "optimization": false,
+                "vendorChunk": true,
+                "extractLicenses": false,
+                "sourceMap": true,
+                "namedChunks": true
+              }
+            },
+            "defaultConfiguration": "production"
+          },
+          "serve": {
+            "executor": "@angular-devkit/build-angular:dev-server",
+            "configurations": {
+              "production": {
+                "buildTarget": "nx-mygarden:build:production"
+              },
+              "development": {
+                "buildTarget": "nx-mygarden:build:development"
+              }
+            },
+            "defaultConfiguration": "development"
+          },
+          "extract-i18n": {
+            "executor": "@angular-devkit/build-angular:extract-i18n",
+            "options": {
+              "buildTarget": "nx-mygarden:build"
+            }
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "options": {
+              "lintFilePatterns": [
+                "./src"
+              ]
+            }
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectName}"
+            ],
+            "options": {
+              "jestConfig": "jest.config.app.ts"
+            }
+          },
+          "serve-static": {
+            "executor": "@nx/web:file-server",
+            "options": {
+              "buildTarget": "nx-mygarden:build"
+            }
+          }
+        },
+        "root": "fe",
+        "implicitDependencies": []
+      }
+    }
+  },
+  "externalNodes": {},
+  "dependencies": {
+    "data-access-category": [],
+    "page-vegetable-categories": [],
+    "feature-category-list": [],
+    "data-access-group": [],
+    "feature-add-category": [],
+    "page-vegetable-catalog": [],
+    "feature-group-list": [],
+    "page-vegetable-groups": [],
+    "feature-add-group": [],
+    "state-groups": [],
+    "page-add-vegetable": [],
+    "ui-add-category-form": [],
+    "ui-add-group-form": [],
+    "ui-category-list": [],
+    "ui-group-list": [],
+    "shared": [],
+    "vegetables-shell": [],
+    "e2e": [
+      {
+        "source": "e2e",
+        "target": "nx-mygarden",
+        "type": "implicit"
+      }
+    ],
+    "nx-mygarden": []
+  },
+  "version": "6.0"
+}

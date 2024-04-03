@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { Group } from '@nx-mygarden/shared';
+import { Store } from '@ngrx/store';
+import { GroupsEntity, GroupsState, addNewGroup } from '@nx-mygarden/state-groups';
 
 @Component({
   selector: 'lib-feature-add-group',
@@ -7,38 +8,16 @@ import { Group } from '@nx-mygarden/shared';
   styleUrl: './feature-add-group.component.scss',
 })
 export class FeatureAddGroupComponent {
-  currentGroup: Group;
+  constructor(private store: Store<GroupsState>) {}
 
-  private newGroup = {
-    id: 0,
-    name: '',
-  };
-
-  constructor() {
-    this.currentGroup = {
-      ...this.newGroup,
-    };
-  }
-
-  handleSaveGroup(group: Group): void {
-    if (group.id === 0) {
-      this.addNewGroup(group);
-    } else {
-      this.editGroup(group);
+  handleSaveGroup(group: GroupsEntity): void {
+    if (group.id === null) {
+      this.store.dispatch(addNewGroup({ group }))
     }
   }
 
 
-
-  private addNewGroup(group: Group): void {
-    const newGroup = {
-      ...group,
-    };
-    // newGroup.id = this.groupList.length + 1;
-    // this.groupList.push(newGroup);
-  }
-
-  private editGroup(group: Group): void {
+  private editGroup(group: GroupsEntity): void {
     console.log(group)
     // this.groupList = this.groupList.map(item => {
     //   if (item.id === group.id) {

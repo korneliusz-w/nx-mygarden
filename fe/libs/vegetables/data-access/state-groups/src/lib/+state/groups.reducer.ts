@@ -26,7 +26,7 @@ export const initialGroupsState: GroupsState = groupsAdapter.getInitialState({
 
 const reducer = createReducer(
   initialGroupsState,
-  on(GroupsActions.initGroups, (state) => ({
+  on(GroupsActions.loadGroups, (state) => ({
     ...state,
     loaded: false,
     error: null,
@@ -37,7 +37,13 @@ const reducer = createReducer(
   on(GroupsActions.loadGroupsFailure, (state, { error }) => ({
     ...state,
     error,
-  }))
+  })),
+  on(GroupsActions.addNewGroupSuccess, (state, { group }) =>
+    groupsAdapter.addOne(group, { ...state, loaded: true })
+  ), 
+  on(GroupsActions.removeGroupSuccess, (state, { id }) =>
+    groupsAdapter.removeOne(id, { ...state, loaded: true })
+  ),  
 );
 
 export function groupsReducer(state: GroupsState | undefined, action: Action) {

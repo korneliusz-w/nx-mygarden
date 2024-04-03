@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { DataAccessGroupServiceService } from '@nx-mygarden/data-access-group';
-import { Group} from '@nx-mygarden/shared';
-import { GroupsState, initGroups } from '@nx-mygarden/state-groups';
+import { GroupsEntity, GroupsState, loadGroups, removeGroup, selectAllGroups } from '@nx-mygarden/state-groups';
+
 
 @Component({
   selector: 'lib-feature-group-list',
@@ -10,23 +9,21 @@ import { GroupsState, initGroups } from '@nx-mygarden/state-groups';
   styleUrl: './feature-group-list.component.scss',
 })
 export class FeatureGroupListComponent {
-  // groupList$ = this.dataAccessGroups.getGroups();
+  groupList$ = this.store.select(selectAllGroups);
 
   constructor(
-    private store: Store<GroupsState>,
-    private readonly dataAccessGroups: DataAccessGroupServiceService) {
-    console.log('feature group list')
-    // this.dataAccessGroups.getGroups().subscribe(console.log)
-    this.store.dispatch(initGroups())
+    private store: Store<GroupsState>) {
+    this.store.dispatch(loadGroups())
   }
 
   handleDeleteGroup(id: number): void {
+    this.store.dispatch(removeGroup({ id }))
     // this.dataAccessGroups.deteleGroup(id).subscribe()
     // this.groupList = this.groupList.filter(item => item.id !== id);
   }
 
-  handleEditGroup(group: Group): void {
-    console.log(group)
+  handleEditGroup(group: GroupsEntity): void {
+    console.log(group)    
     // this.currentGroup = {
     //   ...group,
     // };

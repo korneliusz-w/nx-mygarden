@@ -3,7 +3,7 @@
   "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/vegetables/data-access/state-groups/src",
   "prefix": "lib",
-  "tags": [],
+  "tags": ["domain:vegetables", "type:state"],
   "projectType": "library",
   "targets": {
     "test": {

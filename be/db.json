@@ -1,20 +1,40 @@
 {
   "groups": [
     {
-      "id": "2",
-      "name": "Korzeniowe"
-    },
-    {
       "id": "3",
-      "name": "Psiankowate"
-    },
-    {
-      "id": "4",
       "name": "Kapustne"
     },
     {
-      "id": "5",
+      "id": "4",
       "name": "Cebulowe"
+    },
+    {
+      "id": "243e",
+      "group": {
+        "id": 0,
+        "name": "htrhr"
+      },
+      "type": "[Groups/API] Add New Group"
+    },
+    {
+      "id": "98b0",
+      "group": {
+        "id": 0,
+        "name": "kty"
+      },
+      "type": "[Groups/API] Add New Group"
+    },
+    {
+      "id": 0,
+      "name": "jjjjj"
+    },
+    {
+      "id": 0,
+      "name": "jytj"
+    },
+    {
+      "id": 0,
+      "name": "tttttttt"
     }
   ]
 }

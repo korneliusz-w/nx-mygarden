@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Group } from '@nx-mygarden/shared';
+import { GroupsEntity } from '@nx-mygarden/state-groups';
 
 @Component({
   selector: 'lib-ui-group-list',
@@ -11,12 +11,12 @@ import { Group } from '@nx-mygarden/shared';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class UiGroupListComponent {
-  @Input() list: Group[] = [];
+  @Input() list: GroupsEntity[] = [];
 
-  @Output() edit = new EventEmitter<Group>();
+  @Output() edit = new EventEmitter<GroupsEntity>();
   @Output() delete = new EventEmitter<number>();
 
-  handleEditGroup(group: Group): void {
+  handleEditGroup(group: GroupsEntity): void {
     this.edit.emit(group);
   }
 

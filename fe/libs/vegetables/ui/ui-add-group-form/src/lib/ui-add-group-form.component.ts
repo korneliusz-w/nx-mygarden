@@ -1,7 +1,7 @@
-import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
+import { ChangeDetectionStrategy, Component, EventEmitter, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { Group } from '@nx-mygarden/shared';
+import { GroupsEntity } from '@nx-mygarden/state-groups';
 
 
 @Component({
@@ -13,18 +13,16 @@ import { Group } from '@nx-mygarden/shared';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class UiAddGroupFormComponent {
-  @Input() set group(data: Group) {
-    this.currentGroup = {
-      ...data,
-    };
-  }
-  @Output() saveGroup = new EventEmitter();
+  @Output() saveGroup = new EventEmitter<GroupsEntity>();
 
-  currentGroup!: Group;
+  group: GroupsEntity = {
+    id: null,
+    name: ''
+  };
 
   handleSaveGroup(): void {
-    if (!this.currentGroup.name) return;
+    if (!this.group.name) return;
 
-    this.saveGroup.emit(this.currentGroup);
+    this.saveGroup.emit(this.group);
   }  
 }

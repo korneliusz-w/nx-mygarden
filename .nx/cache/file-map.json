@@ -1,0 +1,1131 @@
+{
+  "version": "6.0",
+  "nxVersion": "16.5.2",
+  "deps": {},
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "projectFileMap": {
+    "shared": [
+      {
+        "file": "fe/libs/vegetables/shared/.eslintrc.json",
+        "hash": "1407031631789642397"
+      },
+      {
+        "file": "fe/libs/vegetables/shared/README.md",
+        "hash": "18321119346861532697"
+      },
+      {
+        "file": "fe/libs/vegetables/shared/jest.config.ts",
+        "hash": "11138030336189844356"
+      },
+      {
+        "file": "fe/libs/vegetables/shared/project.json",
+        "hash": "8382134155145831307"
+      },
+      {
+        "file": "fe/libs/vegetables/shared/src/index.ts",
+        "hash": "1736604005525664829"
+      },
+      {
+        "file": "fe/libs/vegetables/shared/src/lib/models/group.ts",
+        "hash": "737683267159525546"
+      },
+      {
+        "file": "fe/libs/vegetables/shared/src/lib/shared.module.ts",
+        "hash": "15152146831944527641"
+      },
+      {
+        "file": "fe/libs/vegetables/shared/src/test-setup.ts",
+        "hash": "12935735732682149507"
+      },
+      {
+        "file": "fe/libs/vegetables/shared/tsconfig.json",
+        "hash": "8526453262384300416"
+      },
+      {
+        "file": "fe/libs/vegetables/shared/tsconfig.lib.json",
+        "hash": "6020606002228403423"
+      },
+      {
+        "file": "fe/libs/vegetables/shared/tsconfig.spec.json",
+        "hash": "7159729809249402441"
+      }
+    ],
+    "state-groups": [
+      {
+        "file": "fe/libs/vegetables/data-access/state-groups/.eslintrc.json",
+        "hash": "14264782331220934964"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/state-groups/README.md",
+        "hash": "13308772599854153816"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/state-groups/jest.config.ts",
+        "hash": "5847838047692087219"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/state-groups/project.json",
+        "hash": "3215522180512037429"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/state-groups/src/index.ts",
+        "hash": "15201867596263170974"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/state-groups/src/lib/+state/groups.actions.ts",
+        "hash": "9916824479612321222"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/state-groups/src/lib/+state/groups.effects.spec.ts",
+        "hash": "17501516143629820567"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/state-groups/src/lib/+state/groups.effects.ts",
+        "hash": "7914366093960776332"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/state-groups/src/lib/+state/groups.models.ts",
+        "hash": "14542275322838745427"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/state-groups/src/lib/+state/groups.reducer.spec.ts",
+        "hash": "13067017451702322124"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/state-groups/src/lib/+state/groups.reducer.ts",
+        "hash": "12708560776375280098"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/state-groups/src/lib/+state/groups.selectors.spec.ts",
+        "hash": "14964690470713230541"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/state-groups/src/lib/+state/groups.selectors.ts",
+        "hash": "2958328353374579774"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/state-groups/src/lib/state-groups.module.ts",
+        "hash": "9321309339112724741"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/state-groups/src/test-setup.ts",
+        "hash": "12935735732682149507"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/state-groups/tsconfig.json",
+        "hash": "16248533471678702062"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/state-groups/tsconfig.lib.json",
+        "hash": "8746075233993636049"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/state-groups/tsconfig.spec.json",
+        "hash": "9840611283105717156"
+      }
+    ],
+    "nx-mygarden": [
+      {
+        "file": "fe/.eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": "fe/.eslintrc.base.json",
+        "hash": "18315524891129148814"
+      },
+      {
+        "file": "fe/.eslintrc.json",
+        "hash": "7548382722990690964"
+      },
+      {
+        "file": "fe/.gitignore",
+        "hash": "8491837053101957257"
+      },
+      {
+        "file": "fe/.prettierignore",
+        "hash": "3395189204293871444"
+      },
+      {
+        "file": "fe/.prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "fe/.vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
+        "file": "fe/README.md",
+        "hash": "17639980554285893892"
+      },
+      {
+        "file": "fe/jest.config.app.ts",
+        "hash": "3761187847156335067"
+      },
+      {
+        "file": "fe/jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "fe/jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "fe/nx.json",
+        "hash": "13812528765185535837"
+      },
+      {
+        "file": "fe/package-lock.json",
+        "hash": "15183251630491921591"
+      },
+      {
+        "file": "fe/package.json",
+        "hash": "6899418998515273813"
+      },
+      {
+        "file": "fe/project.json",
+        "hash": "1344924547986097607"
+      },
+      {
+        "file": "fe/src/app/app-routing.module.ts",
+        "hash": "6085772763255987106"
+      },
+      {
+        "file": "fe/src/app/app.component.html",
+        "hash": "13395038324122012355"
+      },
+      {
+        "file": "fe/src/app/app.component.scss",
+        "hash": "2231150516955148947"
+      },
+      {
+        "file": "fe/src/app/app.component.spec.ts",
+        "hash": "8590113665392615367"
+      },
+      {
+        "file": "fe/src/app/app.component.ts",
+        "hash": "3898853520245535819"
+      },
+      {
+        "file": "fe/src/app/app.config.tsss",
+        "hash": "12534479595479151824"
+      },
+      {
+        "file": "fe/src/app/app.module.ts",
+        "hash": "13178759813988822644"
+      },
+      {
+        "file": "fe/src/app/app.routes.ts",
+        "hash": "15661545259833419020"
+      },
+      {
+        "file": "fe/src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "fe/src/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": "fe/src/index.html",
+        "hash": "11198192755290536706"
+      },
+      {
+        "file": "fe/src/main.ts",
+        "hash": "16652977450666293972"
+      },
+      {
+        "file": "fe/src/styles.scss",
+        "hash": "5451118812899678865"
+      },
+      {
+        "file": "fe/src/test-setup.ts",
+        "hash": "12935735732682149507"
+      },
+      {
+        "file": "fe/tsconfig.app.json",
+        "hash": "16616923596177837167"
+      },
+      {
+        "file": "fe/tsconfig.base.json",
+        "hash": "12047140855717218128"
+      },
+      {
+        "file": "fe/tsconfig.editor.json",
+        "hash": "9327101183266433096"
+      },
+      {
+        "file": "fe/tsconfig.json",
+        "hash": "8613078546754593336"
+      },
+      {
+        "file": "fe/tsconfig.spec.json",
+        "hash": "16287279946930924495"
+      }
+    ],
+    "ui-add-group-form": [
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-group-form/.eslintrc.json",
+        "hash": "14264782331220934964"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-group-form/README.md",
+        "hash": "1327355663326078352"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-group-form/jest.config.ts",
+        "hash": "10119866661720680925"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-group-form/project.json",
+        "hash": "17384149417831124601"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-group-form/src/index.ts",
+        "hash": "851377170700691304"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-group-form/src/lib/ui-add-group-form.component.html",
+        "hash": "6544057775660601777"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-group-form/src/lib/ui-add-group-form.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-group-form/src/lib/ui-add-group-form.component.spec.ts",
+        "hash": "1256127457430074715"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-group-form/src/lib/ui-add-group-form.component.ts",
+        "hash": "4252393783710594026"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-group-form/src/test-setup.ts",
+        "hash": "12935735732682149507"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-group-form/tsconfig.json",
+        "hash": "16248533471678702062"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-group-form/tsconfig.lib.json",
+        "hash": "8746075233993636049"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-group-form/tsconfig.spec.json",
+        "hash": "9840611283105717156"
+      }
+    ],
+    "feature-category-list": [
+      {
+        "file": "fe/libs/vegetables/features/feature-category-list/.eslintrc.json",
+        "hash": "14264782331220934964"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-category-list/README.md",
+        "hash": "15813088898887633886"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-category-list/jest.config.ts",
+        "hash": "8483504380167831420"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-category-list/project.json",
+        "hash": "16546896461025674086"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-category-list/src/index.ts",
+        "hash": "9139146434444720510"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-category-list/src/lib/feature-category-list.module.ts",
+        "hash": "15694408769684765326"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-category-list/src/test-setup.ts",
+        "hash": "12935735732682149507"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-category-list/tsconfig.json",
+        "hash": "16248533471678702062"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-category-list/tsconfig.lib.json",
+        "hash": "8746075233993636049"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-category-list/tsconfig.spec.json",
+        "hash": "9840611283105717156"
+      }
+    ],
+    "data-access-group": [
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-group/.eslintrc.json",
+        "hash": "14264782331220934964"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-group/README.md",
+        "hash": "4709207978414962853"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-group/jest.config.ts",
+        "hash": "12260450331787151742"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-group/project.json",
+        "hash": "12299124353049720148"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-group/src/index.ts",
+        "hash": "6036282842398986336"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-group/src/lib/data-access-group-service.service.spec.ts",
+        "hash": "9527638823889487073"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-group/src/lib/data-access-group-service.service.ts",
+        "hash": "8156723021947153909"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-group/src/lib/data-access-group.module.ts",
+        "hash": "6691050063276474651"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-group/src/test-setup.ts",
+        "hash": "12935735732682149507"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-group/tsconfig.json",
+        "hash": "16248533471678702062"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-group/tsconfig.lib.json",
+        "hash": "8746075233993636049"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-group/tsconfig.spec.json",
+        "hash": "9840611283105717156"
+      }
+    ],
+    "ui-add-category-form": [
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-category-form/.eslintrc.json",
+        "hash": "14264782331220934964"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-category-form/README.md",
+        "hash": "6551179865332270553"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-category-form/jest.config.ts",
+        "hash": "18214252025645142284"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-category-form/project.json",
+        "hash": "10777498486425300052"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-category-form/src/index.ts",
+        "hash": "13907087105756061678"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-category-form/src/lib/ui-add-category-form.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-category-form/src/lib/ui-add-category-form.component.html",
+        "hash": "3062949822471773576"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-category-form/src/lib/ui-add-category-form.component.spec.ts",
+        "hash": "3288750336022314462"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-category-form/src/lib/ui-add-category-form.component.ts",
+        "hash": "9401521399131582321"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-category-form/src/test-setup.ts",
+        "hash": "12935735732682149507"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-category-form/tsconfig.json",
+        "hash": "16248533471678702062"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-category-form/tsconfig.lib.json",
+        "hash": "8746075233993636049"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-add-category-form/tsconfig.spec.json",
+        "hash": "9840611283105717156"
+      }
+    ],
+    "vegetables-shell": [
+      {
+        "file": "fe/libs/vegetables/shell/.eslintrc.json",
+        "hash": "1407031631789642397"
+      },
+      {
+        "file": "fe/libs/vegetables/shell/README.md",
+        "hash": "10899172954315078468"
+      },
+      {
+        "file": "fe/libs/vegetables/shell/jest.config.ts",
+        "hash": "15434161477249794383"
+      },
+      {
+        "file": "fe/libs/vegetables/shell/project.json",
+        "hash": "7788786097126032032"
+      },
+      {
+        "file": "fe/libs/vegetables/shell/src/index.ts",
+        "hash": "6152028984677920692"
+      },
+      {
+        "file": "fe/libs/vegetables/shell/src/lib/lib.routes.ts",
+        "hash": "7936228074464795577"
+      },
+      {
+        "file": "fe/libs/vegetables/shell/src/lib/vegetables-shell.component.html",
+        "hash": "18312215126039539205"
+      },
+      {
+        "file": "fe/libs/vegetables/shell/src/lib/vegetables-shell.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "fe/libs/vegetables/shell/src/lib/vegetables-shell.component.spec.ts",
+        "hash": "2929643593481590234"
+      },
+      {
+        "file": "fe/libs/vegetables/shell/src/lib/vegetables-shell.component.ts",
+        "hash": "12158023973101052328"
+      },
+      {
+        "file": "fe/libs/vegetables/shell/src/lib/vegetables-shell.module.ts",
+        "hash": "16110434064687009863"
+      },
+      {
+        "file": "fe/libs/vegetables/shell/src/test-setup.ts",
+        "hash": "12935735732682149507"
+      },
+      {
+        "file": "fe/libs/vegetables/shell/tsconfig.json",
+        "hash": "8526453262384300416"
+      },
+      {
+        "file": "fe/libs/vegetables/shell/tsconfig.lib.json",
+        "hash": "6020606002228403423"
+      },
+      {
+        "file": "fe/libs/vegetables/shell/tsconfig.spec.json",
+        "hash": "7159729809249402441"
+      }
+    ],
+    "page-vegetable-categories": [
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-categories/.eslintrc.json",
+        "hash": "14264782331220934964"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-categories/README.md",
+        "hash": "17657052012798024181"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-categories/jest.config.ts",
+        "hash": "12393452928860450451"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-categories/project.json",
+        "hash": "9891548128336689994"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-categories/src/index.ts",
+        "hash": "11354553290562805623"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-categories/src/lib/lib.routes.ts",
+        "hash": "2949863909549966382"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-categories/src/lib/page-vegetable-categories.component.html",
+        "hash": "2557625618300918221"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-categories/src/lib/page-vegetable-categories.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-categories/src/lib/page-vegetable-categories.component.spec.ts",
+        "hash": "9890568387814019367"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-categories/src/lib/page-vegetable-categories.component.ts",
+        "hash": "16314543582133415756"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-categories/src/lib/page-vegetable-categories.module.ts",
+        "hash": "7368559137703629381"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-categories/src/test-setup.ts",
+        "hash": "12935735732682149507"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-categories/tsconfig.json",
+        "hash": "16248533471678702062"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-categories/tsconfig.lib.json",
+        "hash": "8746075233993636049"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-categories/tsconfig.spec.json",
+        "hash": "9840611283105717156"
+      }
+    ],
+    "data-access-category": [
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-category/.eslintrc.json",
+        "hash": "14264782331220934964"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-category/README.md",
+        "hash": "16806095255930896479"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-category/jest.config.ts",
+        "hash": "7368924916401473199"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-category/project.json",
+        "hash": "1518159645954352827"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-category/src/index.ts",
+        "hash": "7273014985039476895"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-category/src/lib/data-access-category.module.ts",
+        "hash": "14765619923033942090"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-category/src/lib/data-access-category.service.spec.ts",
+        "hash": "16956687909628742842"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-category/src/lib/data-access-category.service.ts",
+        "hash": "11156680811375877142"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-category/src/test-setup.ts",
+        "hash": "12935735732682149507"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-category/tsconfig.json",
+        "hash": "16248533471678702062"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-category/tsconfig.lib.json",
+        "hash": "8746075233993636049"
+      },
+      {
+        "file": "fe/libs/vegetables/data-access/data-access-category/tsconfig.spec.json",
+        "hash": "9840611283105717156"
+      }
+    ],
+    "e2e": [
+      {
+        "file": "fe/e2e/.eslintrc.json",
+        "hash": "9616581786683675622"
+      },
+      {
+        "file": "fe/e2e/cypress.config.ts",
+        "hash": "3284071015454432300"
+      },
+      {
+        "file": "fe/e2e/project.json",
+        "hash": "13514529869814656700"
+      },
+      {
+        "file": "fe/e2e/src/e2e/app.cy.ts",
+        "hash": "2588220647650846806"
+      },
+      {
+        "file": "fe/e2e/src/fixtures/example.json",
+        "hash": "11785586596216172004"
+      },
+      {
+        "file": "fe/e2e/src/support/app.po.ts",
+        "hash": "11157016311132186162"
+      },
+      {
+        "file": "fe/e2e/src/support/commands.ts",
+        "hash": "5397443931564808659"
+      },
+      {
+        "file": "fe/e2e/src/support/e2e.ts",
+        "hash": "1054106023200826784"
+      },
+      {
+        "file": "fe/e2e/tsconfig.json",
+        "hash": "4113462041669113066"
+      }
+    ],
+    "feature-add-category": [
+      {
+        "file": "fe/libs/vegetables/features/feature-add-category/.eslintrc.json",
+        "hash": "14264782331220934964"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-add-category/README.md",
+        "hash": "11718456703573254426"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-add-category/jest.config.ts",
+        "hash": "8056624184987035191"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-add-category/project.json",
+        "hash": "12298313364862956844"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-add-category/src/index.ts",
+        "hash": "5282858973432846342"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-add-category/src/lib/feature-add-category.module.ts",
+        "hash": "5608845525825775500"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-add-category/src/test-setup.ts",
+        "hash": "12935735732682149507"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-add-category/tsconfig.json",
+        "hash": "16248533471678702062"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-add-category/tsconfig.lib.json",
+        "hash": "8746075233993636049"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-add-category/tsconfig.spec.json",
+        "hash": "9840611283105717156"
+      }
+    ],
+    "page-add-vegetable": [
+      {
+        "file": "fe/libs/vegetables/pages/page-add-vegetable/.eslintrc.json",
+        "hash": "14264782331220934964"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-add-vegetable/README.md",
+        "hash": "11253751042970743201"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-add-vegetable/jest.config.ts",
+        "hash": "5853248672184944274"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-add-vegetable/project.json",
+        "hash": "10298369284332570404"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-add-vegetable/src/index.ts",
+        "hash": "532677514253952145"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-add-vegetable/src/lib/lib.routes.ts",
+        "hash": "17576968805286703595"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-add-vegetable/src/lib/page-add-vegetable.component.html",
+        "hash": "17036589129530839409"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-add-vegetable/src/lib/page-add-vegetable.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-add-vegetable/src/lib/page-add-vegetable.component.spec.ts",
+        "hash": "10862762379215384781"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-add-vegetable/src/lib/page-add-vegetable.component.ts",
+        "hash": "6541403189100074772"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-add-vegetable/src/lib/page-add-vegetable.module.ts",
+        "hash": "12938251567569941996"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-add-vegetable/src/test-setup.ts",
+        "hash": "12935735732682149507"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-add-vegetable/tsconfig.json",
+        "hash": "16248533471678702062"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-add-vegetable/tsconfig.lib.json",
+        "hash": "8746075233993636049"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-add-vegetable/tsconfig.spec.json",
+        "hash": "9840611283105717156"
+      }
+    ],
+    "feature-group-list": [
+      {
+        "file": "fe/libs/vegetables/features/feature-group-list/.eslintrc.json",
+        "hash": "14264782331220934964"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-group-list/README.md",
+        "hash": "15379090929141862058"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-group-list/jest.config.ts",
+        "hash": "5145473991967666053"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-group-list/project.json",
+        "hash": "14928658088525128749"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-group-list/src/index.ts",
+        "hash": "12618431085278923065"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-group-list/src/lib/feature-group-list.component.html",
+        "hash": "11331975289171246721"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-group-list/src/lib/feature-group-list.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-group-list/src/lib/feature-group-list.component.spec.ts",
+        "hash": "8127633205999895017"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-group-list/src/lib/feature-group-list.component.ts",
+        "hash": "2275627429712128519"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-group-list/src/lib/feature-group-list.module.ts",
+        "hash": "11905275971111274493"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-group-list/src/test-setup.ts",
+        "hash": "12935735732682149507"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-group-list/tsconfig.json",
+        "hash": "16248533471678702062"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-group-list/tsconfig.lib.json",
+        "hash": "8746075233993636049"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-group-list/tsconfig.spec.json",
+        "hash": "9840611283105717156"
+      }
+    ],
+    "feature-add-group": [
+      {
+        "file": "fe/libs/vegetables/features/feature-add-group/.eslintrc.json",
+        "hash": "14264782331220934964"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-add-group/README.md",
+        "hash": "14968433815698804022"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-add-group/jest.config.ts",
+        "hash": "17396636061788789825"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-add-group/project.json",
+        "hash": "15624684740658312758"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-add-group/src/index.ts",
+        "hash": "2596669686745565807"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-add-group/src/lib/feature-add-group.component.html",
+        "hash": "1066999130493006997"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-add-group/src/lib/feature-add-group.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-add-group/src/lib/feature-add-group.component.spec.ts",
+        "hash": "16400891467387551146"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-add-group/src/lib/feature-add-group.component.ts",
+        "hash": "8052931772667219502"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-add-group/src/lib/feature-add-group.module.ts",
+        "hash": "11493759883738440035"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-add-group/src/test-setup.ts",
+        "hash": "12935735732682149507"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-add-group/tsconfig.json",
+        "hash": "16248533471678702062"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-add-group/tsconfig.lib.json",
+        "hash": "8746075233993636049"
+      },
+      {
+        "file": "fe/libs/vegetables/features/feature-add-group/tsconfig.spec.json",
+        "hash": "9840611283105717156"
+      }
+    ],
+    "page-vegetable-catalog": [
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-catalog/.eslintrc.json",
+        "hash": "14264782331220934964"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-catalog/README.md",
+        "hash": "16421772757971167041"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-catalog/jest.config.ts",
+        "hash": "10330925386628104492"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-catalog/project.json",
+        "hash": "8359031833096940772"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-catalog/src/index.ts",
+        "hash": "11872438144175095191"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-catalog/src/lib/lib.routes.ts",
+        "hash": "12963633267850530857"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-catalog/src/lib/page-vegetable-catalog.component.html",
+        "hash": "1449187461081702625"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-catalog/src/lib/page-vegetable-catalog.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-catalog/src/lib/page-vegetable-catalog.component.spec.ts",
+        "hash": "2833907142086659231"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-catalog/src/lib/page-vegetable-catalog.component.ts",
+        "hash": "9600439040434531192"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-catalog/src/lib/page-vegetable-catalog.module.ts",
+        "hash": "2585779058037342888"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-catalog/src/test-setup.ts",
+        "hash": "12935735732682149507"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-catalog/tsconfig.json",
+        "hash": "16248533471678702062"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-catalog/tsconfig.lib.json",
+        "hash": "8746075233993636049"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-catalog/tsconfig.spec.json",
+        "hash": "9840611283105717156"
+      }
+    ],
+    "page-vegetable-groups": [
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-groups/.eslintrc.json",
+        "hash": "14264782331220934964"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-groups/README.md",
+        "hash": "11790490539364259430"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-groups/jest.config.ts",
+        "hash": "9107829007293067778"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-groups/project.json",
+        "hash": "4709797218039689540"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-groups/src/index.ts",
+        "hash": "1710358207743633896"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-groups/src/lib/lib.routes.ts",
+        "hash": "1053301472253400076"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-groups/src/lib/page-vegetable-groups.component.html",
+        "hash": "4553678947259551401"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-groups/src/lib/page-vegetable-groups.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-groups/src/lib/page-vegetable-groups.component.spec.ts",
+        "hash": "8991322228889597456"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-groups/src/lib/page-vegetable-groups.component.ts",
+        "hash": "17732742890760753311"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-groups/src/lib/page-vegetable-groups.module.ts",
+        "hash": "17515986101363916405"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-groups/src/test-setup.ts",
+        "hash": "12935735732682149507"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-groups/tsconfig.json",
+        "hash": "16248533471678702062"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-groups/tsconfig.lib.json",
+        "hash": "8746075233993636049"
+      },
+      {
+        "file": "fe/libs/vegetables/pages/page-vegetable-groups/tsconfig.spec.json",
+        "hash": "9840611283105717156"
+      }
+    ],
+    "ui-category-list": [
+      {
+        "file": "fe/libs/vegetables/ui/ui-category-list/.eslintrc.json",
+        "hash": "14264782331220934964"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-category-list/README.md",
+        "hash": "5607035830504326428"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-category-list/jest.config.ts",
+        "hash": "15569327435571586161"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-category-list/project.json",
+        "hash": "5736771821045468524"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-category-list/src/index.ts",
+        "hash": "4208799774701155821"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-category-list/src/lib/ui-category-list.component.html",
+        "hash": "17541453144061976907"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-category-list/src/lib/ui-category-list.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-category-list/src/lib/ui-category-list.component.spec.ts",
+        "hash": "10149079931585129459"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-category-list/src/lib/ui-category-list.component.ts",
+        "hash": "10722183059783159748"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-category-list/src/test-setup.ts",
+        "hash": "12935735732682149507"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-category-list/tsconfig.json",
+        "hash": "16248533471678702062"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-category-list/tsconfig.lib.json",
+        "hash": "8746075233993636049"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-category-list/tsconfig.spec.json",
+        "hash": "9840611283105717156"
+      }
+    ],
+    "ui-group-list": [
+      {
+        "file": "fe/libs/vegetables/ui/ui-group-list/.eslintrc.json",
+        "hash": "14264782331220934964"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-group-list/README.md",
+        "hash": "16116695179177684343"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-group-list/jest.config.ts",
+        "hash": "10549416918279383712"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-group-list/project.json",
+        "hash": "597904408279947346"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-group-list/src/index.ts",
+        "hash": "528651594789033155"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-group-list/src/lib/ui-group-list.component.html",
+        "hash": "7457734558416408561"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-group-list/src/lib/ui-group-list.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-group-list/src/lib/ui-group-list.component.spec.ts",
+        "hash": "8168417170695703705"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-group-list/src/lib/ui-group-list.component.ts",
+        "hash": "6702890635978769203"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-group-list/src/test-setup.ts",
+        "hash": "12935735732682149507"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-group-list/tsconfig.json",
+        "hash": "16248533471678702062"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-group-list/tsconfig.lib.json",
+        "hash": "8746075233993636049"
+      },
+      {
+        "file": "fe/libs/vegetables/ui/ui-group-list/tsconfig.spec.json",
+        "hash": "9840611283105717156"
+      }
+    ]
+  }
+}
